@@ -27,7 +27,7 @@ void loop()
   // to experiment, some sound good at tempo 1, some might need tempo 50!
   
   uint8_t melodyToPlay = 0;
-  uint8_t tempoToPlay  = 4;
+  uint8_t tempoToPlay  = 2;
   
   playMelody(melodyToPlay, tempoToPlay); 
     
