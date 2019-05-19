@@ -22,10 +22,5 @@ void loop() {
   // print out the value you read:
   
   Serial.print(analogRead(A0));Serial.print(" ");
-  Serial.print(analogRead(A1));Serial.print(" ");
-  Serial.print(analogRead(A2));Serial.print(" ");
-  Serial.print(analogRead(A3));Serial.print(" ");
-  Serial.print(1023);Serial.print(" ");
-  Serial.println(0);
-  //delay(1);        // delay in between reads for stability
+
 }
